@@ -1,7 +1,6 @@
 <?php
 
-// Позже напишем автозагрузчик и будем использовать неймспейсы
-require "Main.php";
+namespace Modules;
 
 class Account extends Main
 {

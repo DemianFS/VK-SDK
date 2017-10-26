@@ -1,6 +1,6 @@
 <?php
 
-require "Modules/Account.php";
+use Modules\Account;
 
 class VK
 {

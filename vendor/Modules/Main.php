@@ -1,5 +1,7 @@
 <?php
 
+namespace Modules;
+
 /**
  * Class Main
  * Главный модуль. Все модули наследуются от него
