@@ -10,9 +10,14 @@ class ComposerStaticInit0f3660b6f728a58a7e9b7525267b0ba2
         'ComposerAutoloaderInit0f3660b6f728a58a7e9b7525267b0ba2' => __DIR__ . '/..' . '/composer/autoload_real.php',
         'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/ClassLoader.php',
         'Composer\\Autoload\\ComposerStaticInit0f3660b6f728a58a7e9b7525267b0ba2' => __DIR__ . '/..' . '/composer/autoload_static.php',
-        'LoaderException' => __DIR__ . '/..' . '/Exceptions/LoaderException.php',
+        'Config\\Config' => __DIR__ . '/..' . '/Config/Config.php',
+        'Modules\\AccessToken' => __DIR__ . '/..' . '/Modules/AccessToken.php',
         'Modules\\Account' => __DIR__ . '/..' . '/Modules/Account.php',
+        'Modules\\Auth' => __DIR__ . '/..' . '/Modules/Auth.php',
         'Modules\\Main' => __DIR__ . '/..' . '/Modules/Main.php',
+        'Modules\\Properties' => __DIR__ . '/..' . '/Modules/Properties.php',
+        'Modules\\Response' => __DIR__ . '/..' . '/Modules/Response.php',
+        'Modules\\Users' => __DIR__ . '/..' . '/Modules/Users.php',
         'VK' => __DIR__ . '/..' . '/VK.php',
     );
 
