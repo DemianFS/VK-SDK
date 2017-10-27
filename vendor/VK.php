@@ -19,7 +19,7 @@ class VK
     /**
      * @var Users
      */
-    public $users;
+    //public $users;
 
     /**
      * VK constructor.
@@ -28,7 +28,7 @@ class VK
     {
         $this->account = new Account();
         $this->access_token = new AccessToken();
-        $this->users = new Users();
+        //$this->users = new Users();
 
         return $this;
     }
