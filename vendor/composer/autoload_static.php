@@ -13,11 +13,9 @@ class ComposerStaticInit0f3660b6f728a58a7e9b7525267b0ba2
         'Config\\Config' => __DIR__ . '/..' . '/Config/Config.php',
         'Modules\\AccessToken' => __DIR__ . '/..' . '/Modules/AccessToken.php',
         'Modules\\Account' => __DIR__ . '/..' . '/Modules/Account.php',
-        'Modules\\Auth' => __DIR__ . '/..' . '/Modules/Auth.php',
+        'Modules\\Apps' => __DIR__ . '/..' . '/Modules/Apps.php',
+        'Modules\\Board' => __DIR__ . '/..' . '/Modules/Board.php',
         'Modules\\Main' => __DIR__ . '/..' . '/Modules/Main.php',
-        'Modules\\Properties' => __DIR__ . '/..' . '/Modules/Properties.php',
-        'Modules\\Response' => __DIR__ . '/..' . '/Modules/Response.php',
-        'Modules\\Users' => __DIR__ . '/..' . '/Modules/Users.php',
         'VK' => __DIR__ . '/..' . '/VK.php',
     );
 

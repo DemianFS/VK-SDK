@@ -5,6 +5,7 @@ use Config\Config;
 
 class Main
 {
+
     public $response;
 
     /**
@@ -35,6 +36,6 @@ class Main
         if (isset($this->response->error))
             throw new \Exception($this->response->error->error_msg, $this->response->error->error_code);
 
-//        return $this;
+        return $this->response;
     }
 }

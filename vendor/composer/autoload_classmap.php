@@ -12,10 +12,8 @@ return array(
     'Config\\Config' => $vendorDir . '/Config/Config.php',
     'Modules\\AccessToken' => $vendorDir . '/Modules/AccessToken.php',
     'Modules\\Account' => $vendorDir . '/Modules/Account.php',
-    'Modules\\Auth' => $vendorDir . '/Modules/Auth.php',
+    'Modules\\Apps' => $vendorDir . '/Modules/Apps.php',
+    'Modules\\Board' => $vendorDir . '/Modules/Board.php',
     'Modules\\Main' => $vendorDir . '/Modules/Main.php',
-    'Modules\\Properties' => $vendorDir . '/Modules/Properties.php',
-    'Modules\\Response' => $vendorDir . '/Modules/Response.php',
-    'Modules\\Users' => $vendorDir . '/Modules/Users.php',
     'VK' => $vendorDir . '/VK.php',
 );
