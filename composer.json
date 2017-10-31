@@ -3,8 +3,8 @@
   "description": "Open PHP SDK for VK",
   "minimum-stability": "dev",
   "autoload":{
-    "classmap":[
-      "vendor"
-    ]
+    "psr-0":
+    "AL3X1\\VK-SDK\\": "src/"
+  }
   }
 }
