@@ -1,4 +1,6 @@
 {
+  "name": "AL3X1/vk-sdk",
+  "description": "Open PHP SDK for VK"
   "autoload":{
     "classmap":[
       "vendor"
