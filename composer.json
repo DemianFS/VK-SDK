@@ -1,11 +1,24 @@
 {
-  "name": "AL3X1/vk-sdk",
-  "description": "Open PHP SDK for VK",
-  "minimum-stability": "dev",
-  
+"repositories": [
+    {
+        "type":"package",
+        "package": {
+          "name": "AL3X1/VK-SDK",
+          "version":"master",
+          "source": {
+              "url": "https://github.com/AL3X1/VK-SDK.git",
+              "type": "git",
+              "reference":"master"
+            }
+        }
+    }
+],
+"require": {
+    "AL3X1/VK-SDK": "master"
+}
   "autoload":{
-    "psr-0": {
-      "AL3X1\\VK-SDK\\": "src/"
+    "classmap": {
+      "vendor/"
     }
   }
 }
